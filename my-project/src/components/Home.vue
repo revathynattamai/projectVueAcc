@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
   <p>{{msg}}</p>
+  <p>{{$route.params.empId}}</p>
     <app-message :msg='msg' @messageChanged="msg=$event"></app-message>
   </div>
 </template>
